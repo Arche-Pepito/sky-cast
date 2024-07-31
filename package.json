@@ -1,7 +1,7 @@
 {
   "name": "weather-app",
   "private": true,
-  "homepage": "https://github.com/Arche-Pepito/sky-cast.git",
+  "homepage": "https://github.com/Arche-Pepito/weather-cast.git",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
