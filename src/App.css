@@ -1,0 +1,144 @@
+/* src/App.css */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+    to right top,
+    #a0d8ef,
+    #b3e5fc
+  ); /* Soft blue gradient background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Semi-transparent white background */
+  padding: 20px; /* Increased padding for comfort */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.app-title {
+  font-size: 26px; /* Larger font size for title */
+  color: #2c3e50; /* Darker shade for better readability */
+  margin-bottom: 15px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.city-input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #4db6ac; /* Soft teal border */
+  border-radius: 6px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.search-button {
+  padding: 10px 16px;
+  font-size: 14px;
+  background-color: #4db6ac; /* Teal button */
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #009688; /* Darker teal on hover */
+}
+
+.error-message {
+  color: #e74c3c; /* Red for error messages */
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.search-history {
+  margin-top: 15px;
+  text-align: left; /* Align text to the left */
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #d1f2eb; /* Light teal background for history items */
+  color: #333333;
+  border-radius: 8px; /* More rounded corners */
+  margin-bottom: 8px; /* Increased margin */
+  transition: background-color 0.3s ease;
+}
+
+.history-item:hover {
+  background-color: #b2e0d9; /* Slightly darker teal on hover */
+}
+
+.delete-button {
+  padding: 4px;
+  background-color: #ff6f61; /* Coral color for delete button */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #ff3d3d; /* Darker coral on hover */
+}
+
+.temperature {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #00796b; /* Dark teal for temperature */
+}
+
+.weather-card {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  background-color: #ffffff; /* White for weather card */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure positioning is relative */
+}
+
+.weather-card svg {
+  color: #00796b; /* Match icon color with your theme */
+  margin: 10px 0; /* Space around the icon */
+}
+
+.weather-details {
+  margin-top: 8px;
+  color: #34495e; /* Dark gray for details */
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #666; /* Lighter gray */
+}
